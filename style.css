@@ -1,0 +1,102 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* --------------------------- nav -------------------------------------- */
+.img-icon{
+    border-radius: 100%;
+    width: 5%;
+    margin-right: 15px;
+}
+.icon{
+    color: #ffcdeb !important;  /* fallback for old browsers */
+
+}
+.icon1{
+    color: #f79dd3 !important;
+}
+.icon1:hover{
+    color:#dd8bbc !important ;
+}
+.bg-transparent.scrolled{
+    background-color: #fff !important;
+}
+/* --------------------------- nav -------------------------------------- */
+
+/* --------------------------------header ------------------------------------ */
+.header{
+    background-image: url(icon1.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 115vh;
+}
+.blur-header{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 115vh;
+    margin-top: -74px;
+    width: 100%;
+}
+.h-header{
+    padding-top: 19pc;
+}
+/* --------------------------------header ------------------------------------ */ 
+
+/* <!-- ---------------------------------- section2 ------------------------------- --> */
+.carousel-control-prev-icon{
+    background-color: #f17777;
+     width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 18px 16.5px;
+    text-align: center;  
+}
+.carousel-control-next-icon{
+        background-color: #f17777;
+         width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        padding: 18px 16.5px;
+        text-align: center;  
+}
+/* <!-- ---------------------------------- section2 ------------------------------- --> */ 
+/* --------------------------------top button--------------------------- */
+.i_button_top{
+    display: inline-block;
+    color: #fff !important;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+.a_button_top{
+    display: none;
+    background: rgba(0,0,0,0.6);
+    border: 2px solid rgba(255,255,255,0.8);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    opacity: .5;
+}
+.a_button_top:hover{
+    background: rgb(0, 0, 0);
+    opacity: .5;
+}
+.a_button_top.scrollh{
+    display: block;
+}
+/* -------------------------------------end button----------------- */
